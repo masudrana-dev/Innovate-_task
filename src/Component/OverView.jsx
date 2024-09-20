@@ -30,6 +30,7 @@ function SamplePrevArrow(props) {
 const OverView = () => {
 
     const settings = {
+        centerPadding: "10px",
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -63,8 +64,8 @@ const OverView = () => {
         ]
     };
     return (
-        <div className=' relative w-[100%] h-[530px] bg-cover bg-center pt-[342px] ' style={{ backgroundImage: `url(${assets.reactangular})` }}>
-            <Container className="md:absolute top-[-200px] right-[0px]">
+        <div className=' relative w-[100%] h-[530px] bg-cover bg-center sm:pt-[10px] md:pt-[342px] ' style={{ backgroundImage: `url(${assets.reactangular})` }}>
+            <Container className="md:absolute sm:top-[0] top-[-200px] right-[0px]">
                 <div>
                     <div className="slider-container  ">
                         <Slider {...settings}>
@@ -72,10 +73,10 @@ const OverView = () => {
                                 <img src={assets.person1} alt="" className='w-80 h-80 object-cover' />
                             </div>
                             <div>
-                                <img src={assets.person2} alt="" className='w-80 h-80' />
+                                <img src={assets.person2} alt="" className='w-80 h-80 object-cover' />
                             </div>
                             <div>
-                                <img src={assets.person3} alt="" className='w-80 h-80' />
+                                <img src={assets.person3} alt="" className='w-80 h-80 object-cover' />
                             </div>
                             <div>
                                 <img src={assets.person1} alt="" className='w-80 h-80' />
@@ -87,9 +88,9 @@ const OverView = () => {
                     </div>
                 </div>
             </Container>
-            <div className=' w-[30%] absolute left-[17%] top-[30%]'>
+            <div className=' sm:text-center md:w-[30%] absolute lg:left-[17%] lg:top-[30%]'>
                 <h1 className='font-inter text-[40px] font-bold'>Overveiw</h1>
-                <p className='font-inter text-[22px] font-semibold'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p className='font-inter text-[18px] font-semibold'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
     )

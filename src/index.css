@@ -16,4 +16,11 @@
     color: #000 !important;
 }
 
-.slick-slide.slick-active.slick-current div img {}
+.slick-slide.slick-active.slick-current div img {
+    height: 400px !important;
+    object-fit: cover;
+}
+
+.slick-slide div img {
+    width: 350px;
+}

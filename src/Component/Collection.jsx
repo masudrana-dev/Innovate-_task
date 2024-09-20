@@ -51,11 +51,11 @@ const Collection = () => {
     }
 
     return (
-        <div className='w-[100%] h-[390px] bg-cover bg-center pt-[50px] md:pt-[100px]' style={{ backgroundImage: `url(${assets.vector})` }}>
+        <div className='w-[100%] h-[390px] bg-cover bg-center pt-[100px] md:pt-[100px]' style={{ backgroundImage: `url(${assets.vector})` }}>
             <Container>
                 <Fade>
                     <div className='md:flex justify-between'>
-                        <div className='p-4 md:w-[500px]'>
+                        <div className='sm:pl-[100px] md:w-[500px]'>
                             <div className='flex'>
                                 {/* Display the selected image based on the toggle value */}
                                 {toggle === 1 && <img src={assets.person1} alt="" className='w-80 h-80 md:w-96 md:h-96 rounded-xl' />}

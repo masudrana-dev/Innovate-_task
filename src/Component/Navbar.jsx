@@ -6,8 +6,8 @@ const Navbar = () => {
     return (
         <div className='py-5 bg-[#363636] '>
             <Container>
-                <div className=' flex justify-between items-center '>
-                    <div>
+                <div className=' md:flex justify-between items-center '>
+                    <div className='sm:pl-16'>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} role="button" className='text-white font-inter text-[18px] flex justify-center items-center'>Home <FaChevronDown className='ml-3' /></div>
                             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
@@ -37,8 +37,8 @@ const Navbar = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='relative'>
-                        <input type="text" placeholder='search' className='outline-none py-2 px-10 rounded-full' />
+                    <div className='relative sm:mt-5'>
+                        <input type="text" placeholder='search' className='sm:w-full md:w-[300px] outline-none py-2 px-10 rounded-full' />
                         <RiSearch2Line className='absolute top-[10px] right-[20px] text-[22px] font-bold' />
                     </div>
                 </div>
