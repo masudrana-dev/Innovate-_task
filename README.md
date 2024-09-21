@@ -1,8 +1,8 @@
-# React + Vite
+Innovate Intern Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Starting Command : npm run dev
+css framework : tailwind.css
+plugins : raect-slick-slider , react-icons , react-slick-carousel
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Note:
+I am sincerely sorry, because I have done the entire project with React because of my lack of NextJS skills. I am in the beginner level of NextJS. But if I am given the opportunity of intern then I will try my best to perform well by learning NextJS in these few days. I hope you'll consider my point!
