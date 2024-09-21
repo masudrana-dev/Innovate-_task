@@ -4,7 +4,7 @@ import Container from "../Layout/Container"
 
 const Photo = () => {
     return (
-        <div className="pt-[200px] sm:pt-[50px] md:pt-[350px]  relative">
+        <div className="pt-[200px] sm:pt-[50px] lg:pt-[350px]  relative">
             <Container>
                 <Zoom damping={0.1}>
                     <div className="flex-col  md:flex md:flex-row justify-between items-center">

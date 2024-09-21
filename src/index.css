@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-arrow .slick-prev {
-    display: none;
-}
-
-.hello {
-    background-color: red;
-}
 
 .slick-prev:before,
 .slick-next:before {

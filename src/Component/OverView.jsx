@@ -43,7 +43,6 @@ const OverView = () => {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: true
                 }
             },
             {
@@ -64,9 +63,9 @@ const OverView = () => {
         ]
     };
     return (
-        <div className=' relative w-[100%] h-[530px] bg-cover bg-center sm:pt-[10px] md:pt-[342px] ' style={{ backgroundImage: `url(${assets.reactangular})` }}>
-            <Container className="md:absolute sm:top-[0] top-[-200px] right-[0px]">
-                <div>
+        <div className='  relative w-[100%] h-[530px] bg-cover bg-center  md:pt-[342px] ' style={{ backgroundImage: `url(${assets.reactangular})` }}>
+            <Container className=" absolute sm:top-[0] md:top-[-200px] md:right-[0px] lg:right-[0px]">
+                <div className=''>
                     <div className="slider-container  ">
                         <Slider {...settings}>
                             <div>
@@ -88,7 +87,7 @@ const OverView = () => {
                     </div>
                 </div>
             </Container>
-            <div className=' sm:text-center md:w-[30%] absolute lg:left-[17%] lg:top-[30%]'>
+            <div className='  sm:pt-10 md:pt-0 lg:pt-20 sm:text-center lg:text-left md:w-[80%]  lg:w-[30%] absolute md:left-[80px] lg:left-[17%] lg:top-[30%]'>
                 <h1 className='font-inter text-[40px] font-bold'>Overveiw</h1>
                 <p className='font-inter text-[18px] font-semibold'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>

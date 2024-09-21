@@ -108,13 +108,13 @@ const Discover = () => {
         : cardData.filter(item => item.category === selectedCategory);
 
     return (
-        <div className="pt-[300px]">
+        <div className="sm:pt-[400px] md:pt-[300px]">
             <Container>
                 <Fade damping={0.1}>
                     <div>
-                        <h1 className="font-inter font-bold text-[32px] pb-[29px]">DISCOVER MORE</h1>
-                        <div className="flex justify-between items-center pb-[62px]">
-                            <ul className="flex justify-between gap-10">
+                        <h1 className="font-inter font-bold text-[32px] pb-[29px] md:pl-10 lg:pl-0">DISCOVER MORE</h1>
+                        <div className=" md:px-10 lg:px-0 flex justify-between items-center pb-[62px]">
+                            <ul className="flex justify-between gap-10 cursor-pointer">
                                 {/* Category buttons */}
                                 <li
                                     onClick={() => handleCategoryChange('All')}

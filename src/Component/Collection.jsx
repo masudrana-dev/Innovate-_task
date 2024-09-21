@@ -51,7 +51,7 @@ const Collection = () => {
     }
 
     return (
-        <div className='w-[100%] h-[390px] bg-cover bg-center pt-[100px] md:pt-[100px]' style={{ backgroundImage: `url(${assets.vector})` }}>
+        <div className=' w-[100%] h-[390px] bg-cover bg-center md:px-10 sm:pt-[150px] md:pt-[100px]' style={{ backgroundImage: `url(${assets.vector})` }}>
             <Container>
                 <Fade>
                     <div className='md:flex justify-between'>
