@@ -55,7 +55,7 @@ const Collection = () => {
             <Container>
                 <Fade>
                     <div className='md:flex justify-between'>
-                        <div className='sm:pl-[100px] md:w-[500px]'>
+                        <div className='sm:pl-[100px] md:pl-0 md:w-[500px]'>
                             <div className='flex'>
                                 {/* Display the selected image based on the toggle value */}
                                 {toggle === 1 && <img src={assets.person1} alt="" className='w-80 h-80 md:w-96 md:h-96 rounded-xl' />}
